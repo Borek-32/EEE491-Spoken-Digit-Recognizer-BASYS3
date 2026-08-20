@@ -1,0 +1,53 @@
+# Vivado projects, generated products and run state
+*.xpr
+*.bit
+*.bin
+*.dcp
+*.wdb
+*.wcfg
+*.jou
+*.log
+*.str
+*.pb
+*.rpx
+*.vdi
+*.wdf
+.Xil/
+*.cache/
+*.gen/
+*.hw/
+*.ip_user_files/
+*.runs/
+*.sim/
+ip_user_files/
+
+# Build and release output must stay out of the source tree
+/build/
+/out/
+/results/
+/release/
+
+# MATLAB-generated evidence and figures
+*.mat
+verification/figures/
+verification/hardware/accuracy_sessions/
+**/captures/
+
+# KiCad editor state and backups
+*.lck
+*.kicad_prl
+*.kicad_sch-bak
+*.kicad_pcb-bak
+*-backups/
+.history/
+
+# Python/editor/OS state
+__pycache__/
+*.py[cod]
+*~
+*.swp
+.DS_Store
+
+# The editable report and office lock/backup files are private build inputs
+*.docx
+~$*

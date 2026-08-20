@@ -1,0 +1,67 @@
+{
+  "status": "PASS_NET_ASSIGNMENT",
+  "scope": "exact net naming and coverage; not a claim that the legacy PCB is DRC-clean",
+  "source_hashes": {
+    "desktop_schematic": "e35c51a3030d64c75fbf8b99cae6bb0e8106192cca6c8ed2968b3d3029f0215c",
+    "desktop_board": "d63a80d06c6ad783caed415275df6e86c6c870cf5f2c0cff97cd489689012f88"
+  },
+  "artifact_hashes": {
+    "schematic": "e048aea20a23204e335b8b917d858b5b625f47df2b587cd79a136fac49ffc069",
+    "board": "9bbecf3bb4c14e42b5074cd040471e9068cee83279f0a7e54bf9ae51d7f66949",
+    "netlist": "4c3add6ce19f3a80b006fe64155a750fbb6b3cf699657641867fd9fe5366d803",
+    "ipc_d_356": "035360e9793b679489f32b04b105ba468b7389373c307e139036de7c6e1651e6",
+    "manifest": "ccb85ebc63043676c801c12159b84083314062014b8894c28715d0ed8a840a45",
+    "pcb_drc": "3670f731964fbab58badc5616636cec2578db8408fcbda17d7522f7dad0198a5",
+    "schematic_erc": "bc7d5108ce3da68e85dd91293d8d6ba7f5eeb1b023176f2f465ed4f81950cdf2",
+    "render": "eb30c8b60b91ed64ea4eb0f6cd762d93343c94fd8b38294cbc8428e976d432fc"
+  },
+  "schematic_net_count": 21,
+  "pcb_named_net_count": 21,
+  "exact_net_set": [
+    "/3v3",
+    "/JC3",
+    "/JC4",
+    "/JC9",
+    "/amp-out",
+    "/amp1",
+    "/amp2",
+    "/div-out",
+    "/div-ref",
+    "/filter-out",
+    "/mic",
+    "/pot1",
+    "/pot2",
+    "/ref",
+    "/ss1c",
+    "/ss1o",
+    "/ss1r",
+    "/ss2c",
+    "/ss2r",
+    "GND",
+    "VCC"
+  ],
+  "pcb_coverage": {
+    "islands": 22,
+    "named_islands": 21,
+    "no_net_islands": 1,
+    "pads": 75,
+    "segments": 287,
+    "vias": 18
+  },
+  "geometry_unchanged": true,
+  "pcb_drc": {
+    "violations": 126,
+    "by_severity": {
+      "error": 12,
+      "warning": 114
+    },
+    "unconnected_items": 0
+  },
+  "schematic_erc": {
+    "violations": 28,
+    "by_severity": {
+      "error": 8,
+      "warning": 20
+    }
+  }
+}

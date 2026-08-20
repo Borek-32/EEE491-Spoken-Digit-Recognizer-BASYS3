@@ -1,0 +1,458 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-08-19T22:05:33",
+    "ignored_checks": [
+        {
+            "description": "Global label only appears once in the schematic",
+            "key": "single_global_label"
+        },
+        {
+            "description": "Four connection points are joined together",
+            "key": "four_way_junction"
+        },
+        {
+            "description": "SPICE model issue",
+            "key": "simulation_model_issue"
+        },
+        {
+            "description": "Assigned footprint doesn't match footprint filters",
+            "key": "footprint_filter"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning",
+        "exclusion"
+    ],
+    "kicad_version": "10.0.3",
+    "sheets": [
+        {
+            "path": "/",
+            "uuid_path": "/32e823c7-5c2a-4b42-aa6d-eef9bae6239d",
+            "violations": [
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR01 Pin 1 [Power input, Line]",
+                            "pos": {
+                                "x": 1.1303,
+                                "y": 0.7239
+                            },
+                            "uuid": "db176b3f-5163-4e79-bb37-68706aa088b1"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Symbol U4 has input power pins in units [ E ] that are not placed",
+                    "items": [
+                        {
+                            "description": "Symbol U4 [LM324]",
+                            "pos": {
+                                "x": 1.1938,
+                                "y": 1.0795
+                            },
+                            "uuid": "55a0544e-b8b6-4a9c-9d00-ade43ef15afc"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "missing_power_pin"
+                },
+                {
+                    "description": "Symbol U1 has input power pins in units [ E ] that are not placed",
+                    "items": [
+                        {
+                            "description": "Symbol U1 [LM324]",
+                            "pos": {
+                                "x": 1.3208,
+                                "y": 0.7747
+                            },
+                            "uuid": "c2bb038b-ec36-4ff0-9170-f1caef1720a8"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "missing_power_pin"
+                },
+                {
+                    "description": "Symbol U3 has input power pins in units [ E ] that are not placed",
+                    "items": [
+                        {
+                            "description": "Symbol U3 [LM324]",
+                            "pos": {
+                                "x": 1.4859,
+                                "y": 1.0795
+                            },
+                            "uuid": "cc645cd3-9680-4d55-b3a0-a318e2fd0d1f"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "missing_power_pin"
+                },
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol U6 Pin 2 [GND, Input, Line]",
+                            "pos": {
+                                "x": 1.524,
+                                "y": 1.3335
+                            },
+                            "uuid": "c9eac15e-5a03-4a6b-b266-b4b15d4f3716"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Symbol U2 has input power pins in units [ E ] that are not placed",
+                    "items": [
+                        {
+                            "description": "Symbol U2 [LM324]",
+                            "pos": {
+                                "x": 1.6129,
+                                "y": 0.8001
+                            },
+                            "uuid": "681b34aa-a1d4-4c1d-afd2-d0763097a53d"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "missing_power_pin"
+                },
+                {
+                    "description": "Input pin not driven by any Output pins",
+                    "items": [
+                        {
+                            "description": "Symbol U6 Pin 6 [/CS, Input, Line]",
+                            "pos": {
+                                "x": 1.6891,
+                                "y": 1.3081
+                            },
+                            "uuid": "61df44f7-5fc8-4de3-a1fb-7b62dac33ef9"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_driven"
+                },
+                {
+                    "description": "Input pin not driven by any Output pins",
+                    "items": [
+                        {
+                            "description": "Symbol U6 Pin 4 [SCLK, Input, Line]",
+                            "pos": {
+                                "x": 1.6891,
+                                "y": 1.3589
+                            },
+                            "uuid": "0169fef9-7b97-4b44-a462-34cac48a72ee"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_driven"
+                },
+                {
+                    "description": "Symbol 'R' doesn't match copy in library 'Device'",
+                    "items": [
+                        {
+                            "description": "Symbol R11 [R]",
+                            "pos": {
+                                "x": 1.1684,
+                                "y": 1.3589
+                            },
+                            "uuid": "1e2ca011-9dca-46ee-b30c-72e802f65b2b"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'LM324' doesn't match copy in library 'Amplifier_Operational'",
+                    "items": [
+                        {
+                            "description": "Symbol U4 [LM324]",
+                            "pos": {
+                                "x": 1.1938,
+                                "y": 1.0795
+                            },
+                            "uuid": "55a0544e-b8b6-4a9c-9d00-ade43ef15afc"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol U4 has input pins in units [ B, C, D ] that are not placed",
+                    "items": [
+                        {
+                            "description": "Symbol U4 [LM324]",
+                            "pos": {
+                                "x": 1.1938,
+                                "y": 1.0795
+                            },
+                            "uuid": "55a0544e-b8b6-4a9c-9d00-ade43ef15afc"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "missing_input_pin"
+                },
+                {
+                    "description": "Symbol U4 has unplaced units [ B, C, D, . ]",
+                    "items": [
+                        {
+                            "description": "Symbol U4 [LM324]",
+                            "pos": {
+                                "x": 1.1938,
+                                "y": 1.0795
+                            },
+                            "uuid": "55a0544e-b8b6-4a9c-9d00-ade43ef15afc"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "missing_unit"
+                },
+                {
+                    "description": "Symbol 'LM324' doesn't match copy in library 'Amplifier_Operational'",
+                    "items": [
+                        {
+                            "description": "Symbol U1 [LM324]",
+                            "pos": {
+                                "x": 1.3208,
+                                "y": 0.7747
+                            },
+                            "uuid": "c2bb038b-ec36-4ff0-9170-f1caef1720a8"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol U1 has input pins in units [ B, C, D ] that are not placed",
+                    "items": [
+                        {
+                            "description": "Symbol U1 [LM324]",
+                            "pos": {
+                                "x": 1.3208,
+                                "y": 0.7747
+                            },
+                            "uuid": "c2bb038b-ec36-4ff0-9170-f1caef1720a8"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "missing_input_pin"
+                },
+                {
+                    "description": "Symbol U1 has unplaced units [ B, C, D, . ]",
+                    "items": [
+                        {
+                            "description": "Symbol U1 [LM324]",
+                            "pos": {
+                                "x": 1.3208,
+                                "y": 0.7747
+                            },
+                            "uuid": "c2bb038b-ec36-4ff0-9170-f1caef1720a8"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "missing_unit"
+                },
+                {
+                    "description": "Symbol 'LM324' doesn't match copy in library 'Amplifier_Operational'",
+                    "items": [
+                        {
+                            "description": "Symbol U3 [LM324]",
+                            "pos": {
+                                "x": 1.4859,
+                                "y": 1.0795
+                            },
+                            "uuid": "cc645cd3-9680-4d55-b3a0-a318e2fd0d1f"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol U3 has input pins in units [ B, C, D ] that are not placed",
+                    "items": [
+                        {
+                            "description": "Symbol U3 [LM324]",
+                            "pos": {
+                                "x": 1.4859,
+                                "y": 1.0795
+                            },
+                            "uuid": "cc645cd3-9680-4d55-b3a0-a318e2fd0d1f"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "missing_input_pin"
+                },
+                {
+                    "description": "Symbol U3 has unplaced units [ B, C, D, . ]",
+                    "items": [
+                        {
+                            "description": "Symbol U3 [LM324]",
+                            "pos": {
+                                "x": 1.4859,
+                                "y": 1.0795
+                            },
+                            "uuid": "cc645cd3-9680-4d55-b3a0-a318e2fd0d1f"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "missing_unit"
+                },
+                {
+                    "description": "The symbol library 'New_Library' was not found at 'New_Library.kicad_sym'",
+                    "items": [
+                        {
+                            "description": "Symbol U6 [ADC121S101]",
+                            "pos": {
+                                "x": 1.6002,
+                                "y": 1.3335
+                            },
+                            "uuid": "81db1e0a-33de-408b-974a-aa3a18598a26"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol 'LM324' doesn't match copy in library 'Amplifier_Operational'",
+                    "items": [
+                        {
+                            "description": "Symbol U2 [LM324]",
+                            "pos": {
+                                "x": 1.6129,
+                                "y": 0.8001
+                            },
+                            "uuid": "681b34aa-a1d4-4c1d-afd2-d0763097a53d"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol U2 has input pins in units [ B, C, D ] that are not placed",
+                    "items": [
+                        {
+                            "description": "Symbol U2 [LM324]",
+                            "pos": {
+                                "x": 1.6129,
+                                "y": 0.8001
+                            },
+                            "uuid": "681b34aa-a1d4-4c1d-afd2-d0763097a53d"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "missing_input_pin"
+                },
+                {
+                    "description": "Symbol U2 has unplaced units [ B, C, D, . ]",
+                    "items": [
+                        {
+                            "description": "Symbol U2 [LM324]",
+                            "pos": {
+                                "x": 1.6129,
+                                "y": 0.8001
+                            },
+                            "uuid": "681b34aa-a1d4-4c1d-afd2-d0763097a53d"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "missing_unit"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Label 'JC9'",
+                            "pos": {
+                                "x": 1.7145,
+                                "y": 1.3081
+                            },
+                            "uuid": "ffa45272-33fb-4bb0-a881-cddb6bebf2c9"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Label 'JC4'",
+                            "pos": {
+                                "x": 1.7145,
+                                "y": 1.3335
+                            },
+                            "uuid": "0719d42e-bc0f-4780-8fc0-36d003a1d29f"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Label 'JC3'",
+                            "pos": {
+                                "x": 1.7145,
+                                "y": 1.3589
+                            },
+                            "uuid": "d502ba25-5a7d-4e26-8dae-2bd2ae6e8c19"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Unconnected wire endpoint",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 0.0381 mm",
+                            "pos": {
+                                "x": 1.6891,
+                                "y": 1.3081
+                            },
+                            "uuid": "cedc5523-583d-4aed-9138-e24210eee01a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "unconnected_wire_endpoint"
+                },
+                {
+                    "description": "Unconnected wire endpoint",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 0.0381 mm",
+                            "pos": {
+                                "x": 1.6891,
+                                "y": 1.3335
+                            },
+                            "uuid": "406aa4de-743b-4092-8eef-a7cff8935d3d"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "unconnected_wire_endpoint"
+                },
+                {
+                    "description": "Unconnected wire endpoint",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 0.0381 mm",
+                            "pos": {
+                                "x": 1.6891,
+                                "y": 1.3589
+                            },
+                            "uuid": "d9c3ad4d-22e6-4117-a0cb-f4ab19a31d68"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "unconnected_wire_endpoint"
+                }
+            ]
+        }
+    ],
+    "source": "mfcc_homefab_named_nets.kicad_sch"
+}

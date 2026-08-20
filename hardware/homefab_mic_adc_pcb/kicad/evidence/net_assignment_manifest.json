@@ -1,0 +1,761 @@
+{
+  "source": "originals/mfccsmd.kicad_pcb",
+  "source_sha256": "d63a80d06c6ad783caed415275df6e86c6c870cf5f2c0cff97cd489689012f88",
+  "output": "mfcc_homefab_named_nets.kicad_pcb",
+  "output_sha256": "9bbecf3bb4c14e42b5074cd040471e9068cee83279f0a7e54bf9ae51d7f66949",
+  "kicad_version": "10.0.3",
+  "method": "native KiCad connectivity; fail-closed 22-island membership; SetNet on every pad, segment and via",
+  "geometry_fingerprint_before": "96315d564750483217d7fe3aa1cda3d1227ca24b983345fd281001f8f3b6d82f",
+  "geometry_fingerprint_after": "96315d564750483217d7fe3aa1cda3d1227ca24b983345fd281001f8f3b6d82f",
+  "totals": {
+    "islands": 22,
+    "named_islands": 21,
+    "no_net_islands": 1,
+    "pads": 75,
+    "segments": 287,
+    "vias": 18
+  },
+  "islands": [
+    {
+      "id": "I001",
+      "net": "/ref",
+      "counts": {
+        "pads": 4,
+        "segments": 12,
+        "vias": 0
+      },
+      "pads": [
+        "D1.2",
+        "D2.1",
+        "RA.2",
+        "REF**@157.250,68.750.1"
+      ],
+      "uuids": [
+        "19919b55-9659-4f6e-a4c5-5e118d70cd3f",
+        "2d0b73e0-476a-4d31-9765-36dbf2a45e51",
+        "474ae012-0578-4ae5-90fe-74ea430c2f74",
+        "4c7c5c28-7e3a-4ed2-8127-67316395ac80",
+        "64a0605e-ba56-4cf1-9baf-3d358cbf241e",
+        "811ba9b3-cab7-49dd-9103-9b10f7eaa2ac",
+        "9893eb93-59a4-4f85-9971-fcd99f0c6696",
+        "9ab44c0c-8fe1-4f88-9d51-7c9517239f69",
+        "9ff9c952-7760-48cd-aadd-497638cc9ebc",
+        "b07a6b22-c558-4b38-a2e3-30da8a6ff804",
+        "c06b0157-19b7-46be-b42c-98abaab78aa6",
+        "cdd847e3-4679-48b5-ba8d-f1b939c953b5",
+        "d0c3b836-8fa3-442d-9ce1-adfa157ad7db",
+        "e55dcb27-f3e8-4fa2-88be-5477120d3deb",
+        "e87d7c2d-e180-4f11-8ea9-f73378e8164a",
+        "f1c89780-06eb-44fa-88c1-b60ac1c83853"
+      ]
+    },
+    {
+      "id": "I002",
+      "net": "/3v3",
+      "counts": {
+        "pads": 4,
+        "segments": 26,
+        "vias": 3
+      },
+      "pads": [
+        "CDC@130.750,65.250.1",
+        "D1.1",
+        "REF**@155.920,65.040.1",
+        "REF**@157.250,68.750.3"
+      ],
+      "uuids": [
+        "018ec7a4-5cb7-4291-a9c7-ae7146306b5f",
+        "0738effd-dcf5-4aab-b35a-e9f818801b04",
+        "0d236ae8-7386-4363-a00c-6c452a2177dd",
+        "1206efc9-bfd7-48b5-8977-33bf489b0834",
+        "24b35487-be1f-4d9e-909c-640a246e055e",
+        "2dd843d4-4ec0-4868-aa82-fe35da21bbcf",
+        "36470963-709d-4567-9f02-48d48789ce94",
+        "3a9ff2a7-d7d6-464a-bf62-e4ef94898f1b",
+        "4242f202-9a6c-4526-81d3-5de676534d21",
+        "46a11ec5-6700-42e5-815a-569f4dc1bee9",
+        "4acec5bf-6ced-4ca5-8500-f2bee164fe43",
+        "54586149-be8a-4d18-a1d3-6f423157ac1f",
+        "58336059-485d-4af2-8b8d-73bc0bfbc880",
+        "5b623634-c01c-4b44-9742-30a01ac9728b",
+        "5e828bb7-f7ef-4c79-b616-3e8ccf58ff1f",
+        "771f859d-22fc-4908-a9ae-f66b4f2defc4",
+        "85c9df8c-8ffe-42a6-8d12-ca181773ea7d",
+        "9042f776-87f8-42a4-b825-dc6977c1409a",
+        "95f01f20-4de1-4f2b-bca1-646356ef5b07",
+        "b347b710-982b-41cb-99e2-d636f00e0e45",
+        "bb2fca29-cd9b-4370-b3dc-2d295a7c7b2e",
+        "c68af4d1-d5d7-4e55-9e3d-7b198a14e51f",
+        "cb2b7eb0-b09e-435d-a81c-3f135e623981",
+        "cb2d0efa-7303-4103-bceb-89b1b20105e5",
+        "e413a344-2b01-4c97-8d20-4f6a54ddf51f",
+        "e4890ea0-74bd-4928-9a55-6408d3d392a2",
+        "f008b377-36f1-47c7-bab2-8083ef5f6f07",
+        "f5045fca-6e41-4b92-a94b-1012c392cc00",
+        "f8dd385f-4caf-4081-a501-a72c3f7178ef",
+        "fa7ef1a9-c02d-4af0-9e9b-1ebe5a200053",
+        "fb216386-7d2c-43a1-87d2-5dce08a69381",
+        "fb27245e-f2da-4962-b444-3604f2b4126a",
+        "fc479a83-658e-4e97-8ddb-44734a1230cb"
+      ]
+    },
+    {
+      "id": "I003",
+      "net": "/JC9",
+      "counts": {
+        "pads": 2,
+        "segments": 33,
+        "vias": 4
+      },
+      "pads": [
+        "REF**@155.920,65.040.8",
+        "REF**@157.250,68.750.4"
+      ],
+      "uuids": [
+        "012a01ef-c0ba-41aa-a9a5-36c3ffff6172",
+        "01e33c40-62b9-489c-bd3b-2c1210a17740",
+        "0a4d3372-b785-4320-a916-5a98fcb4896a",
+        "1a8f17e5-b3f6-489f-8331-6da68ec127a0",
+        "1cdd0218-2590-42ae-963a-4bb0e284ec6b",
+        "1f2c4abb-1b1a-41b9-9b7a-8553a1b5d1a9",
+        "21180840-bc69-4810-96d1-808ab92961aa",
+        "298b5feb-728a-48b5-a71a-74b946663747",
+        "2a282344-c18f-481e-ab9d-0b1fbda5729d",
+        "2b7b7386-a3c8-4393-beef-4d0a29141898",
+        "2b8cf660-1674-4624-85af-3fd20ea4466e",
+        "30a693cf-0fb6-4451-8d3d-d69caa8d65f1",
+        "31f566ad-02cb-44cf-89ef-0665943eff11",
+        "35f674b6-8bbc-409c-b247-3df4f14921db",
+        "36cfc84d-41af-4631-989d-ac2125857208",
+        "38179bb1-e0c7-429c-8df8-432ca05d2d4a",
+        "383239db-3779-4628-96f9-4e354621aece",
+        "3b5207ad-5abb-4b48-8590-2ec77c3f9b40",
+        "3b61ffa5-4f1c-44e7-a22f-bb0f5bbc14e4",
+        "3fae9717-4b09-416b-a670-e7748797b275",
+        "43182c5b-812a-44ce-baa5-431f848de98e",
+        "43d6bb02-53c5-48fb-b899-49ea084fbad9",
+        "4b7a7d02-422d-4da8-a474-b39bf3b8de3e",
+        "53a67c77-39f3-4541-9fbd-108c7789442e",
+        "6103b2cd-8a06-4022-983f-168c2d14d83d",
+        "62b60d14-effa-48d8-a9fa-7f5009daad31",
+        "6e4ea1fa-90ac-4fd1-9cfe-9421d353c8ef",
+        "704b0e6e-d600-4361-b9a9-f843931ac90e",
+        "757c2da4-5435-4102-8a5c-549a2ef2dcc3",
+        "8a0c7ecd-25e1-479f-a6fc-72e3db97325c",
+        "9afe1cfd-5392-4ba0-8c64-84af470ca11a",
+        "b4126678-06cc-4b2a-8e14-d9ee4e50f9c5",
+        "cbbbee6f-348b-412f-af71-2178e48ce3d1",
+        "df68fd03-c64f-4ba2-9151-97ba8db3a499",
+        "ed067737-8535-48f9-9c74-b791d3129a53",
+        "f3c1265f-16d3-497c-a3a3-57d915eec68a",
+        "f407196b-0e6a-4d50-bf2f-7bf724cb1928",
+        "f52905da-0cdf-439f-b154-c7c08ee60447",
+        "fd96da2b-b9dc-455d-841e-f9b49e1bca86"
+      ]
+    },
+    {
+      "id": "I004",
+      "net": "GND",
+      "counts": {
+        "pads": 12,
+        "segments": 50,
+        "vias": 3
+      },
+      "pads": [
+        "324.4",
+        "C3.2",
+        "C5.1",
+        "CDC@130.750,65.250.2",
+        "CDC@143.750,65.250.2",
+        "D2.2",
+        "GND.1",
+        "R2.1",
+        "REF**@155.920,65.040.3",
+        "REF**@155.920,65.040.4",
+        "REF**@157.250,68.750.2",
+        "REF**@162.750,84.750.1"
+      ],
+      "uuids": [
+        "032c787f-c791-4a16-9dcc-16c7e574b34c",
+        "084bece8-32c0-4525-b45e-06126740d4f0",
+        "0c6558b2-9fcd-4372-951a-f361d184fcb9",
+        "0c883ca2-6305-47ae-a729-335a33d9693c",
+        "1062d19f-6856-46e3-afcc-1b677f952a4d",
+        "12a56e2a-1b86-4d54-9966-5027ca7b4d3e",
+        "182aa5e9-e086-4240-a71c-73f479b8d62a",
+        "1e4671a9-32bb-44b4-9bad-9d26eae17ee7",
+        "2138246c-0059-49c7-a4bd-7285df2aa978",
+        "2308bbdb-eaa8-42f6-af10-1faecdd73aa6",
+        "288cc213-f6b0-40af-8c18-c271d7dd31a3",
+        "31cc2c1e-ee43-42eb-8e68-13d40bba2d25",
+        "34a6ac7a-b519-43e7-838b-cba84387a1cf",
+        "3df08bab-a653-4e16-a8db-43e4f0991623",
+        "3f25720a-691f-45da-8dd9-32c9eb45ebee",
+        "3f668fbe-5d00-47d3-b9ee-9d71baccae6b",
+        "42481268-176d-412e-89b4-01d2342df067",
+        "4334d600-bb3b-467d-9357-791950021d44",
+        "504158ff-d3d0-41ab-90b4-a3598dc4b161",
+        "5322f87b-7f67-4a86-a0c4-81d8e4bdfb6b",
+        "551665c4-6473-4d12-aca9-b738783dd21b",
+        "5cc577eb-4019-4efb-9ebb-9d20f04655fa",
+        "5eeb308c-f5d8-48db-90ae-4f2e7a8c86c4",
+        "630fe816-f916-440f-a74a-898e50c0e585",
+        "6c58c7af-2b10-4bb8-876e-5d7476da39e1",
+        "6d72b57d-b486-4b11-b890-892679f2dded",
+        "72a1f31c-22b9-4bb6-b1d6-955559f2afc3",
+        "72ef72b8-c27c-4d2f-a251-5225a7f0e996",
+        "7655d2d5-c53d-4b51-a659-79ba9cbf720e",
+        "77055f9b-1744-443f-8d2b-b74a0b4e8f11",
+        "79274660-841f-4cd7-a868-5b574b5cfc9a",
+        "8015deb9-878f-4cab-b025-d80529ff1249",
+        "80e23531-58e8-433b-9670-bd685964f8ad",
+        "869b0dc2-cdfb-4ba3-8e93-42613450706f",
+        "92fbf959-fe09-41bf-88cf-bd78d4948e7f",
+        "953c6ef8-0fc9-49b3-8abf-9d85b81d50f2",
+        "9776d2fc-1a87-437c-81cc-474be750b380",
+        "978022bb-75ed-4270-9810-d9bc6d3602fb",
+        "9f098bb7-b3d4-4091-9783-814468e70afc",
+        "a36fc108-1de9-4988-bdac-72816849a563",
+        "a56ca7c9-e30a-4f30-974b-e8ab4bcd4d0f",
+        "b42f4296-6fcd-4d00-ba8e-e5ed283464c9",
+        "b873e172-b689-4d74-97a7-057c39335df3",
+        "b931e8c2-8292-496f-91ea-2c1156312d73",
+        "baca671e-868e-4467-8a67-40976a571177",
+        "c143162b-5a0a-482a-b9d7-abb3ea81add9",
+        "c18a40a2-0c6e-4575-96a7-c507b7c46907",
+        "c5bb84fa-5a15-4c1b-a47a-e5a59bbe97cd",
+        "c6b873a2-7d96-44e0-9d15-681228ed3c2f",
+        "ca6bc152-9028-4c13-a983-dd5885b46937",
+        "cf652b50-2108-40c7-9657-571e341e2a36",
+        "d5927cac-0d1b-41f2-a7a6-ff7042ec3a4a",
+        "dabb42da-8b22-4c0f-9bc2-c7dd4006b51a",
+        "dc1a8e2b-cdf7-44be-8f9d-8e6c809bf9b5",
+        "dd00808c-cbda-49b5-bac6-0707aa093f32",
+        "e4f9613a-f0d9-42d9-81df-228f48d57a57",
+        "e92672c5-888a-4079-acf8-3375fa27ad28",
+        "eaedb2f4-25a6-4d10-a82d-0937d6f5d3d6",
+        "eb9a68c4-efb8-46c2-832c-bed80f2a8227",
+        "ec2352c8-5cd2-464b-9f79-c693aff0111d",
+        "edbeeede-9428-4675-b6db-4b550da99f0c",
+        "f107f4d1-525a-48e3-b19e-c15caaaf69c5",
+        "fd1f3c6c-3ad9-4940-8eea-958cbf0e50ba",
+        "ff0aa00a-412f-48f1-b5a8-4245bfedfbbb",
+        "ffb6aaff-66ff-43eb-aff1-38c6b0777f20"
+      ]
+    },
+    {
+      "id": "I005",
+      "net": null,
+      "counts": {
+        "pads": 1,
+        "segments": 0,
+        "vias": 0
+      },
+      "pads": [
+        "REF**@155.920,65.040.2"
+      ],
+      "uuids": [
+        "0a3d0a78-6312-4497-ac93-496c2287010c"
+      ]
+    },
+    {
+      "id": "I006",
+      "net": "/JC4",
+      "counts": {
+        "pads": 3,
+        "segments": 9,
+        "vias": 2
+      },
+      "pads": [
+        "REF**@155.920,65.040.5",
+        "REF**@155.920,65.040.6",
+        "REF**@157.250,68.750.5"
+      ],
+      "uuids": [
+        "07ea67c9-950a-420d-ac97-a748744cce86",
+        "19602fda-e014-43a1-8212-8cd32ad10350",
+        "2a7facf3-ee24-41eb-804a-6c72a70b0a0b",
+        "3fcc7c33-69c6-49e0-bf6c-2368f77fe746",
+        "506e5c28-5a66-45fc-a37a-05f47668e494",
+        "670bbb96-5c0a-4400-8220-638622e39ea9",
+        "822d0d57-9c2e-44fa-929a-dfb0a83a1784",
+        "960be9d9-b66d-4029-aa87-f90daee2e77c",
+        "96191cbf-d6cc-4038-93a2-3ea904194d9f",
+        "aeafdcbb-7840-4e1d-aaf6-206ff13c7604",
+        "bf8f6f04-80b2-4d25-82e5-6d124445fb0e",
+        "d5994c45-9872-4770-8325-484dce3163e5",
+        "d806e2e3-bc9b-47d3-97b4-5eab629a801f",
+        "f374e511-b16b-47f6-bfbb-c620ec590cbe"
+      ]
+    },
+    {
+      "id": "I007",
+      "net": "VCC",
+      "counts": {
+        "pads": 5,
+        "segments": 33,
+        "vias": 2
+      },
+      "pads": [
+        "324.11",
+        "9V.1",
+        "CDC@143.750,65.250.1",
+        "R1.2",
+        "R3.2"
+      ],
+      "uuids": [
+        "0cceeedd-931f-4741-9fa8-4cf0b0152464",
+        "11953eed-b561-47bf-a747-0dc08a6bddd2",
+        "1b6e3c52-baff-46e1-9d05-a53ba8d3b6ab",
+        "23a6318f-5513-45f9-b983-ba77fad3f4d8",
+        "23bb4b47-93d3-44ac-8d1c-50fb28c7d9bb",
+        "31644e96-589a-4919-afd6-41a53c823961",
+        "34082e7a-c30e-4c7f-8373-04ef493231c8",
+        "3aa650e7-4c3c-4337-b0d9-c5ee34f64444",
+        "4140bd03-705f-4158-a354-6d1c059d0bf8",
+        "42d6ac53-6f99-4615-942e-b0e9517cd0af",
+        "4421bb6c-0282-4432-8b91-49139462c7b1",
+        "4b4c4edd-c479-43a5-a1c1-6af03b263192",
+        "4dedaadd-6074-44b8-abad-10009e417c93",
+        "5600bccd-a1ed-431d-a15d-97c8c1af664e",
+        "582662ba-8c5a-4179-a33d-a3f72c87fb9d",
+        "5a45b3f6-0ab0-4281-8da8-e7a1c18bafd2",
+        "5f6bb509-07f1-4e68-9ffc-617ceaaae24d",
+        "6104151a-3b27-4613-9352-8f8dd440bc11",
+        "678538f0-2815-4264-8ed3-394b328cda3e",
+        "79ebc6cb-1d41-46bf-99a4-f4db699d2b3c",
+        "7de05418-6aed-4378-b5bf-50fa9e155cbd",
+        "97c7fcf5-8460-4719-9730-c394954811d9",
+        "a752bef9-e052-4b9c-aca7-495d41b053e6",
+        "a9d0fbc7-c831-4916-8c08-3640cf30b581",
+        "b1854d73-bc2a-4a60-88cb-0391b6f79b1b",
+        "b414eb15-4bc6-4463-b60d-8f65bf269e0c",
+        "b4268647-8cfd-45df-aed8-d71fa79188cb",
+        "c5d6fc66-a0e4-463d-9637-478869f47922",
+        "cd28a1cc-d397-4874-8a93-aa49eea01a94",
+        "cf6686f4-248c-4936-94e3-1d7df43b717e",
+        "d793e008-bb29-4c8e-b947-2415082c5328",
+        "dd74f5aa-46e6-4b7f-b9e1-6d8789e8cfb0",
+        "dea95786-3a49-482a-8d19-116328ec0086",
+        "e25e6d82-8fe3-4ba0-9092-44cd3a3eec5e",
+        "e95890ca-a412-4170-8441-6d8556935bf4",
+        "edcf509b-6908-4536-b2db-572662831cd9",
+        "f4b3f823-b3a7-4afe-82f3-9c1d86098832",
+        "fbd54593-08af-4ee0-bf44-297e2ca53ea6",
+        "fbe982a8-f62d-4056-b64f-0038bd3cd4b8",
+        "ffcd6887-9ab1-41cc-ac2c-e5e3dcaa67bb"
+      ]
+    },
+    {
+      "id": "I008",
+      "net": "/JC3",
+      "counts": {
+        "pads": 2,
+        "segments": 4,
+        "vias": 1
+      },
+      "pads": [
+        "REF**@155.920,65.040.7",
+        "REF**@157.250,68.750.6"
+      ],
+      "uuids": [
+        "39b37312-e8d7-483f-b60b-c25bfb43433c",
+        "5758d886-419c-47e9-ba61-3767d5d4858c",
+        "95264b08-8ae5-441c-8321-e83434e04b43",
+        "96c25c27-3d52-4759-bdb3-e15541e5fb89",
+        "bd2e4750-19eb-4e0b-b5fb-6854f53d68e3",
+        "f25a3ced-fbd5-4d97-9fc4-1cf3171b94d0",
+        "faac5208-f38a-4c7e-a7e6-746fdfc4c58e"
+      ]
+    },
+    {
+      "id": "I009",
+      "net": "/filter-out",
+      "counts": {
+        "pads": 4,
+        "segments": 13,
+        "vias": 1
+      },
+      "pads": [
+        "324.1",
+        "324.2",
+        "C4.2",
+        "RA.1"
+      ],
+      "uuids": [
+        "0b38ad69-f9fc-4240-9c3b-0fc6dd81ec13",
+        "11a64c6b-120d-412c-bcc7-60c1ca3d80cc",
+        "15094093-86fe-4d2b-a714-3cb5bab9008e",
+        "315519d9-9ee8-49e5-960c-cd10571fc9b0",
+        "3962927b-00b7-4584-a859-497d556ee441",
+        "4f824b53-e3fa-4719-a506-39e8efa71cc1",
+        "508c2c81-e1ca-4304-9d94-9ff999e7bbed",
+        "53ed36b3-c37a-4413-9592-034c38e0f39e",
+        "69608c35-dfef-4f61-bbd3-ea36b813443a",
+        "6c79bd4f-2f4a-4281-b7f6-6eea1fb88d06",
+        "7bdfffa4-d5e0-4334-b82c-e8fa846ae415",
+        "8e846b00-686b-4346-b260-2c3fa4d0db55",
+        "8fd8cab9-9e13-474e-8840-8488ea33586b",
+        "9c68125a-4abe-4a89-916e-944aafd1584e",
+        "cae93ea0-76ee-4b18-a351-0804c10dd3ca",
+        "e0c5f9e2-f9d7-4908-b353-74703b662186",
+        "f0dc6094-02e2-4922-91b1-ce5264c52ea1",
+        "ff1140cc-1b44-4921-97df-4d140cd460d0"
+      ]
+    },
+    {
+      "id": "I010",
+      "net": "/div-ref",
+      "counts": {
+        "pads": 4,
+        "segments": 14,
+        "vias": 0
+      },
+      "pads": [
+        "324.13",
+        "324.14",
+        "R4.2",
+        "R5.1"
+      ],
+      "uuids": [
+        "02a8ce40-9bf2-47ba-9b2c-05f57954eb7f",
+        "1c98fdc5-bba3-4d33-8f82-cf0de0702c99",
+        "263e0ea2-5f52-4d1b-a802-86a3504b79c9",
+        "328bae39-7c71-4367-9d77-9f300c93e88a",
+        "361ff11f-882b-45d6-864d-5bc2f1538a8c",
+        "683e79fc-665f-4631-9d89-813d4a08c4ea",
+        "700b970e-54c9-42a9-a166-66c70fc6852e",
+        "78bac268-675d-4c8a-ac59-ec50f1c4328e",
+        "854a8cab-742e-4787-9d72-cd33e6caad49",
+        "8decf092-557b-4740-b164-330514b3b0ff",
+        "90d4c5c3-64c1-4d6d-b475-03b3b15ccc33",
+        "993786ec-97bf-4afc-9504-87c073e009fd",
+        "acb8a14d-ae13-43df-b3e3-b0d849f3fad5",
+        "ad062aa2-9901-433d-93a7-6dc4659a2a62",
+        "aec4f11a-9b1e-4e08-9b5e-dcdbd85a46f5",
+        "da1b712b-f96e-4d37-a978-e886adff6629",
+        "e97ce74d-3129-4b66-8768-4b8cc499e28f",
+        "fe54e42b-01e0-4c35-b400-4a2a39bb9d57"
+      ]
+    },
+    {
+      "id": "I011",
+      "net": "/mic",
+      "counts": {
+        "pads": 3,
+        "segments": 15,
+        "vias": 2
+      },
+      "pads": [
+        "C1.2",
+        "R3.1",
+        "REF**@162.750,84.750.2"
+      ],
+      "uuids": [
+        "040fe600-f274-4a10-ad2e-8b10c7b08556",
+        "0930d96c-8054-4ddb-bb31-a900100e579e",
+        "118c181f-0018-46e4-b5ce-e97008005c0c",
+        "15bcd08f-1377-44f4-8a3c-f00e5ba9c54b",
+        "18125cbc-f8c7-4301-8898-d9e73a6ecbec",
+        "2325c264-6763-41ba-bd9a-2a152a17e58e",
+        "297569e1-d1a0-48c9-8931-84a4498488ed",
+        "44a0d0ce-bd9e-47a9-925d-b02da7285077",
+        "55d005d5-d696-4c95-bfc1-0c86682f9ce2",
+        "8d39a605-e2b6-4a12-b798-ee7f3521b3ea",
+        "9795e05b-1e2a-4276-89e9-0b2684ca259a",
+        "a476886c-e234-40d4-a6a4-6f054b3670cc",
+        "b4232de8-2ee1-4a67-911f-35d5aad85b67",
+        "c3fca791-2f6b-4f7f-977e-16e11aae1be5",
+        "c50736a1-8b6b-4923-bd26-bc0edeaf4a7f",
+        "c991c68e-4170-4e88-87ce-7a8ab2ea2a7a",
+        "e01cfb51-7ab9-416c-ae38-170a797e3fa0",
+        "e21cdfb3-80ce-4110-991e-5240824e54c0",
+        "e68cf7ce-88de-4543-828f-9117509eda89",
+        "e8556d85-1493-4f9b-b065-5a0563724091"
+      ]
+    },
+    {
+      "id": "I012",
+      "net": "/ss2r",
+      "counts": {
+        "pads": 3,
+        "segments": 6,
+        "vias": 0
+      },
+      "pads": [
+        "C4.1",
+        "R10.1",
+        "R9.2"
+      ],
+      "uuids": [
+        "24127627-205e-4834-9cf8-19365986a3fc",
+        "27c45884-5cd2-425a-8343-50d4265b56b8",
+        "2db2f8fe-923b-4ee6-af98-95e194fdc83c",
+        "628706d8-631c-4367-89c3-35a8f503adde",
+        "6bf4f3f4-a2e3-4b6a-b9a9-305cbcca7055",
+        "79449519-338d-4154-8ca7-143773c64f64",
+        "c55b9a3c-cb43-4c5e-a8a2-9e00b34b1822",
+        "d922c449-d107-4365-bd49-88540f57c5ec",
+        "f1050ce8-b480-4cd9-bcf8-64c2e143f890"
+      ]
+    },
+    {
+      "id": "I013",
+      "net": "/div-out",
+      "counts": {
+        "pads": 3,
+        "segments": 8,
+        "vias": 0
+      },
+      "pads": [
+        "324.12",
+        "R1.1",
+        "R2.2"
+      ],
+      "uuids": [
+        "17565977-3325-4ae3-bf68-36ef154f2d45",
+        "1cc71d18-9ea0-4d92-a989-9613c6a043c8",
+        "24d8dbae-7d10-4dbe-8625-5ef9589fc88c",
+        "69c62723-56f3-46a9-92dc-8b81fe90c72b",
+        "750f6bc4-c1b9-4028-8d15-4d44281c59f7",
+        "7fb80cfd-acb2-4c9d-aedc-6413c76399a8",
+        "b64639e0-8e76-4410-b51f-c728ec4e1d6f",
+        "bc392e63-2ebe-45d6-b7bb-c4d202624c5c",
+        "c1bd69f3-52c1-4b25-97f0-19e12095ae7f",
+        "f1460707-b3e5-4432-8075-34ad4927a7b8",
+        "f5bd44f0-f3e7-49ef-82a6-5e98b1bbdc2b"
+      ]
+    },
+    {
+      "id": "I014",
+      "net": "/ss2c",
+      "counts": {
+        "pads": 3,
+        "segments": 8,
+        "vias": 0
+      },
+      "pads": [
+        "324.3",
+        "C5.2",
+        "R10.2"
+      ],
+      "uuids": [
+        "25e1e213-37ca-48af-bb77-1e072b875d17",
+        "2ca1ba25-b269-42fc-baf8-6d6b7ade4774",
+        "448f184e-1523-498c-b032-049687c74857",
+        "697bb3c5-3e18-487f-9431-0c23d104cbce",
+        "8907c3af-2ac9-4f7b-bbcc-728b3a94cb73",
+        "a0a7d4a9-dfb8-4fa0-b230-2d9e5c2f1a36",
+        "a1f723db-3172-42f9-b12a-8d7eff79b653",
+        "d487269e-9ec3-43fb-87e3-77e99c165ba6",
+        "dd9ac9bc-16d3-48ca-b711-4ebc0b10920f",
+        "e261ff0b-01e0-4012-a25a-ccde55e48782",
+        "ffa23e7f-c149-49b0-bd11-335dbca7c5e9"
+      ]
+    },
+    {
+      "id": "I015",
+      "net": "/amp1",
+      "counts": {
+        "pads": 3,
+        "segments": 10,
+        "vias": 0
+      },
+      "pads": [
+        "324.10",
+        "C1.1",
+        "R4.1"
+      ],
+      "uuids": [
+        "0f979684-774e-4555-a0bf-b4bcf601ba4f",
+        "2c9997f2-d4bd-4dd0-ba92-ed73df55db1a",
+        "40b32c3d-f5dd-45e7-9066-3858a6b3b74e",
+        "4659c65e-5776-4576-88ea-ed4aa016d6c9",
+        "532af908-4232-4cec-a268-0bf9d3f41f46",
+        "53720d4e-d94d-40f0-936e-a2c974ce6d6b",
+        "60840070-546c-4bd0-ad55-0639ed9b10cc",
+        "6f275f10-c376-4abf-91cc-01c0a02ce3e4",
+        "70a2b2e5-22f8-4225-9061-0d6b8d3b72e6",
+        "70eb52ec-5522-480e-8e29-5719d9c02e86",
+        "a50e5910-2a62-4a8c-8fb9-9a94bfca0aae",
+        "d1cee79b-c53d-499a-bcc6-4704391e507b",
+        "d49c66da-0fb3-4f7a-8365-c00cd87d5960"
+      ]
+    },
+    {
+      "id": "I016",
+      "net": "/pot1",
+      "counts": {
+        "pads": 2,
+        "segments": 6,
+        "vias": 0
+      },
+      "pads": [
+        "POT.3",
+        "R5.2"
+      ],
+      "uuids": [
+        "2db5d0e4-6571-4343-8856-82ec9ea2a21f",
+        "3ac2407a-35c8-4b59-90f3-6d0fcdb7cbe4",
+        "681a36b0-8021-4f50-8956-cfcc73ea467d",
+        "7ad0e6c7-9731-4cb0-b24c-fb90c3e2ac43",
+        "82635f4a-23c3-411e-9af8-ebe2b8d4fb30",
+        "a4a1bad8-2ae6-4ce5-baa8-b29742bcbb22",
+        "cfdb3589-7d81-4b47-a2b6-bb076fac7716",
+        "ea4da41b-7268-4ebd-a6ec-22bcfc628dd1"
+      ]
+    },
+    {
+      "id": "I017",
+      "net": "/ss1c",
+      "counts": {
+        "pads": 3,
+        "segments": 8,
+        "vias": 0
+      },
+      "pads": [
+        "324.5",
+        "C3.1",
+        "R8.2"
+      ],
+      "uuids": [
+        "25eb70d3-d5b6-4961-90bf-38e6b1370e10",
+        "4407a66c-000e-4442-bd05-31f268b2d22b",
+        "488c3927-4bf7-4b5b-a9ee-9b2ff066a012",
+        "57df7acc-413c-4152-b6d4-bd20ca09890b",
+        "584f5e3d-df40-44ed-bcd0-8cfcf945b264",
+        "670b68b7-72c0-42b3-9e82-70ab8f50dec0",
+        "c32bb03a-a39c-477f-bc2e-5d7f41d2484c",
+        "eff2b857-a24e-464f-a857-95176191177f",
+        "f6e75185-2cf7-4536-a122-b53a1f61a01a",
+        "fd8a2d3c-cc9a-42d1-926a-ed7c3266666b",
+        "fdc58e6f-67f0-4cdb-a4b9-2ab791aeeb50"
+      ]
+    },
+    {
+      "id": "I018",
+      "net": "/ss1o",
+      "counts": {
+        "pads": 4,
+        "segments": 10,
+        "vias": 0
+      },
+      "pads": [
+        "324.6",
+        "324.7",
+        "C2.1",
+        "R9.1"
+      ],
+      "uuids": [
+        "0c1ccc32-869c-4fa3-b856-fd9e4f93885f",
+        "155a96c5-550a-49dd-8488-3662bd443f14",
+        "201a9a51-8c95-4857-9bec-8027b8cfd745",
+        "2899db88-63d6-467f-8c7a-e35679d48e40",
+        "412b868b-1339-4fa6-9971-c3cd41b05e8a",
+        "56208d0b-cf47-4263-b2da-3d671871b514",
+        "58b4afd5-7cb4-46ec-91cd-8a20e8ae22cd",
+        "776fad90-6200-4f02-b127-fb472c1207f4",
+        "8dffa2a5-9587-47c9-a7cd-36d2d68ee311",
+        "9d6bf5b6-a4d5-4891-96ed-7f83c70411f2",
+        "b28ad6a2-ed06-4eb0-a34a-f092e5c86c61",
+        "cee132b4-8ce7-4cd8-8d1d-3b5201c6abfd",
+        "e20c1b6e-ca42-41b7-91a1-1343e7b740ba",
+        "ef4371f0-7e4d-4c66-a285-4bf724bd73ee"
+      ]
+    },
+    {
+      "id": "I019",
+      "net": "/amp2",
+      "counts": {
+        "pads": 2,
+        "segments": 7,
+        "vias": 0
+      },
+      "pads": [
+        "324.9",
+        "POT.2"
+      ],
+      "uuids": [
+        "0462fe6e-bfc0-4304-a2a2-fef60916c56d",
+        "528c21ae-26b8-42c7-ad07-61907f3c4ca0",
+        "69e1affe-54b7-457a-82e2-33b445e5763f",
+        "6da0fb01-1ccf-462c-8b95-6c14ea21bfa0",
+        "72fcd954-8c41-4f50-9cbf-0d87d45452cf",
+        "9e5e7d9a-5666-44e3-a09d-3dd43174a9cb",
+        "decf3c9f-7009-42ca-895d-367f8292292a",
+        "e04a510f-627d-4b51-951f-c91b307b924d",
+        "ec359ef4-af3e-48e0-981e-6247eb61592b"
+      ]
+    },
+    {
+      "id": "I020",
+      "net": "/amp-out",
+      "counts": {
+        "pads": 3,
+        "segments": 4,
+        "vias": 0
+      },
+      "pads": [
+        "324.8",
+        "R6.1",
+        "R7.2"
+      ],
+      "uuids": [
+        "021daaac-378b-453b-9ba0-3fcc5e35022c",
+        "4f54fba5-b926-4fa3-b77c-2b7b71617b5e",
+        "6e6b764a-3a54-4b1f-a5fe-5a10d28b2b3d",
+        "72b7a0ad-b685-4e81-b79d-bfb3f22695dc",
+        "8b86f319-c577-4e37-8281-b210d490df91",
+        "bb20c69c-c3f0-4ba7-aa5e-54de46d73d9a",
+        "de3b3d0c-b13e-46b0-875b-86043129955d"
+      ]
+    },
+    {
+      "id": "I021",
+      "net": "/ss1r",
+      "counts": {
+        "pads": 3,
+        "segments": 8,
+        "vias": 0
+      },
+      "pads": [
+        "C2.2",
+        "R7.1",
+        "R8.1"
+      ],
+      "uuids": [
+        "05b65d99-8f3e-41b8-991e-38d5e402d3d6",
+        "1a4e29ae-f8fd-48f3-b735-734b911f9a12",
+        "476f7956-d6ee-453d-82a3-32e0dbb1a39e",
+        "76705c2b-b7ca-4e9f-8b45-a3dd6b8c1fb5",
+        "7c7c4a4b-ed89-42bf-ab99-e86033ae2002",
+        "8b3e0fe4-0470-4a7d-83ab-f008fb779b55",
+        "a073db54-3f2d-46f6-9e32-72f664b51d76",
+        "af31358b-9f2f-4ece-b028-fb57d6bd4d39",
+        "cf65f0a7-b840-4d8a-8dd8-daf055fbac8b",
+        "eb9a1916-425d-46aa-9849-50035ab425fe",
+        "fbcd0c9b-bc03-4b0e-b9d2-e403848f18e5"
+      ]
+    },
+    {
+      "id": "I022",
+      "net": "/pot2",
+      "counts": {
+        "pads": 2,
+        "segments": 3,
+        "vias": 0
+      },
+      "pads": [
+        "POT.1",
+        "R6.2"
+      ],
+      "uuids": [
+        "399eec75-7f2c-470e-98d2-46409aa5c685",
+        "8cc7dd8e-341f-4b94-a421-5c49b308675c",
+        "9d55e687-f86c-493c-b409-65187906e285",
+        "cc2c86ba-9002-452a-9ef8-632a95331e70",
+        "f3acc806-9950-4f06-8f5c-72258cd7330d"
+      ]
+    }
+  ]
+}

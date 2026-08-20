@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this project, please cite it using the metadata below."
+title: "FPGA MFCC Spoken-Digit Recognizer"
+type: software
+version: 1.0.0
+date-released: 2026-08-20
+authors:
+  - family-names: "Gürbüz"
+    given-names: "Kerem"
+abstract: >-
+  A fixed-point MFCC spoken-digit recognition pipeline for the Digilent Basys 3,
+  with synthesizable VHDL, bounded verification, a home-fabricated microphone
+  and ADC board, reproducible Vivado recreation, and evidence-scoped reports.
+license: MIT
+keywords:
+  - FPGA
+  - MFCC
+  - VHDL
+  - speech recognition
+  - Basys 3

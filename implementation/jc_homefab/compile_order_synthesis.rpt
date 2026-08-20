@@ -1,0 +1,97 @@
+Source compile order for 'synthesis' with fileset 'sources_1' in source management mode 'All':
+Index  File Name                         Used_In      File_Type  Library         Ngc Wrapper  Full Path Name
+-----  --------------------------------  -----------  ---------  --------------  -----------  ----------------------------------------------------------------------------------------------------------------------------------------------------------
+1      comp_ref_rom_digit3_20260518.coe  Synth & Sim  COE        xil_defaultlib               <isolated-build>/mfcc-recog 1.4.srcs/sources_1/imports/coe_files/comp_ref_rom_digit3_20260518.coe
+2      ADC.vhd                           Synth & Sim  VHDL       xil_defaultlib  No           <isolated-build>/mfcc-recog 1.4.srcs/sources_1/new/ADC.vhd
+3      COMP.vhd                          Synth & Sim  VHDL       xil_defaultlib  No           <isolated-build>/mfcc-recog 1.4.srcs/sources_1/new/COMP.vhd
+4      CTRL.vhd                          Synth & Sim  VHDL       xil_defaultlib  No           <isolated-build>/mfcc-recog 1.4.srcs/sources_1/new/CTRL.vhd
+5      DCT.vhd                           Synth & Sim  VHDL       xil_defaultlib  No           <isolated-build>/mfcc-recog 1.4.srcs/sources_1/new/DCT.vhd
+6      FFT.vhd                           Synth & Sim  VHDL       xil_defaultlib  No           <isolated-build>/mfcc-recog 1.4.srcs/sources_1/new/FFT.vhd
+7      LOGMEL.vhd                        Synth & Sim  VHDL       xil_defaultlib  No           <isolated-build>/mfcc-recog 1.4.srcs/sources_1/new/LOGMEL.vhd
+8      MEL.vhd                           Synth & Sim  VHDL       xil_defaultlib  No           <isolated-build>/mfcc-recog 1.4.srcs/sources_1/new/MEL.vhd
+9      WINDOW.vhd                        Synth & Sim  VHDL       xil_defaultlib  No           <isolated-build>/mfcc-recog 1.4.srcs/sources_1/new/WINDOW.vhd
+10     debug.vhd                         Synth & Sim  VHDL       xil_defaultlib  No           <isolated-build>/mfcc-recog 1.4.srcs/sources_1/new/debug.vhd
+11     seven-segment.vhd                 Synth & Sim  VHDL       xil_defaultlib  No           <isolated-build>/mfcc-recog 1.4.srcs/sources_1/new/seven-segment.vhd
+12     top_module.vhd                    Synth & Sim  VHDL       xil_defaultlib  No           <isolated-build>/mfcc-recog 1.4.srcs/sources_1/new/top_module.vhd
+
+
+Constraint evaluation order for 'synthesis' with fileset 'sources_1' & with fileset 'constrs_1':
+Index  File Name  Used_In       Scoped_To_Ref  Scoped_To_Cells  Processing_Order  Out_Of_Context  Full Path Name
+-----  ---------  ------------  -------------  ---------------  ----------------  --------------  -------------------------------------------------------------------------------------------------------------------
+1      xdc.xdc    Synth & Impl                                  NORMAL                            <isolated-build>/mfcc-recog 1.4.srcs/constrs_1/new/xdc.xdc
+
+
+Missing instances for 'synthesis' with fileset 'sources_1':
+Index  Instance Path  File Path  Line
+-----  -------------  ---------  ----
+< empty >
+
+
+----------------------------------------------------------
+| Compile Order for Out-of-Context BlockSet: 'blk_mem_gen_dct_cos'
+| Top Module:                                'blk_mem_gen_dct_cos'
+----------------------------------------------------------
+
+Source compile order for 'synthesis' with fileset 'blk_mem_gen_dct_cos' in source management mode 'All':
+Index  File Name        Used_In      File_Type  Library         Ngc Wrapper  Full Path Name
+-----  ---------------  -----------  ---------  --------------  -----------  -----------------------------------------------------------------------------------------------------------------------------------------
+1      dct_cos_rom.coe  Synth & Sim  COE        xil_defaultlib               <isolated-build>/mfcc-recog 1.4.srcs/sources_1/imports/coe_files/dct_cos_rom.coe
+
+
+Constraint evaluation order for 'synthesis' with fileset 'blk_mem_gen_dct_cos':
+Index  File Name  Used_In  Scoped_To_Ref  Scoped_To_Cells  Processing_Order  Out_Of_Context  Full Path Name
+-----  ---------  -------  -------------  ---------------  ----------------  --------------  --------------
+< empty >
+
+
+----------------------------------------------------------
+| Compile Order for Out-of-Context BlockSet: 'blk_mem_gen_log2_piecewise_rom'
+| Top Module:                                'blk_mem_gen_log2_piecewise_rom'
+----------------------------------------------------------
+
+Source compile order for 'synthesis' with fileset 'blk_mem_gen_log2_piecewise_rom' in source management mode 'All':
+Index  File Name               Used_In      File_Type  Library         Ngc Wrapper  Full Path Name
+-----  ----------------------  -----------  ---------  --------------  -----------  ------------------------------------------------------------------------------------------------------------------------------------------------
+1      log2_piecewise_rom.coe  Synth & Sim  COE        xil_defaultlib               <isolated-build>/mfcc-recog 1.4.srcs/sources_1/imports/coe_files/log2_piecewise_rom.coe
+
+
+Constraint evaluation order for 'synthesis' with fileset 'blk_mem_gen_log2_piecewise_rom':
+Index  File Name  Used_In  Scoped_To_Ref  Scoped_To_Cells  Processing_Order  Out_Of_Context  Full Path Name
+-----  ---------  -------  -------------  ---------------  ----------------  --------------  --------------
+< empty >
+
+
+----------------------------------------------------------
+| Compile Order for Out-of-Context BlockSet: 'blk_mem_gen_6'
+| Top Module:                                'blk_mem_gen_6'
+----------------------------------------------------------
+
+Source compile order for 'synthesis' with fileset 'blk_mem_gen_6' in source management mode 'All':
+Index  File Name            Used_In      File_Type  Library         Ngc Wrapper  Full Path Name
+-----  -------------------  -----------  ---------  --------------  -----------  ---------------------------------------------------------------------------------------------------------------------------------------------
+1      mel_coeff_dense.coe  Synth & Sim  COE        xil_defaultlib               <isolated-build>/mfcc-recog 1.4.srcs/sources_1/imports/coe_files/mel_coeff_dense.coe
+
+
+Constraint evaluation order for 'synthesis' with fileset 'blk_mem_gen_6':
+Index  File Name  Used_In  Scoped_To_Ref  Scoped_To_Cells  Processing_Order  Out_Of_Context  Full Path Name
+-----  ---------  -------  -------------  ---------------  ----------------  --------------  --------------
+< empty >
+
+
+----------------------------------------------------------
+| Compile Order for Out-of-Context BlockSet: 'blk_mem_gen_0'
+| Top Module:                                'blk_mem_gen_0'
+----------------------------------------------------------
+
+Source compile order for 'synthesis' with fileset 'blk_mem_gen_0' in source management mode 'All':
+Index  File Name         Used_In      File_Type  Library         Ngc Wrapper  Full Path Name
+-----  ----------------  -----------  ---------  --------------  -----------  ------------------------------------------------------------------------------------------------------------------------------------------
+1      hann512_8bit.coe  Synth & Sim  COE        xil_defaultlib               <isolated-build>/mfcc-recog 1.4.srcs/sources_1/imports/coe_files/hann512_8bit.coe
+
+
+Constraint evaluation order for 'synthesis' with fileset 'blk_mem_gen_0':
+Index  File Name  Used_In  Scoped_To_Ref  Scoped_To_Cells  Processing_Order  Out_Of_Context  Full Path Name
+-----  ---------  -------  -------------  ---------------  ----------------  --------------  --------------
+< empty >
+
+
